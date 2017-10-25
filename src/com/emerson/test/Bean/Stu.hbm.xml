@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+          "http://wwww.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.emerson.test.Bean.Student" table="t_student">
+		<id name="s_id" column="s_id">
+		<generator class="native"></generator>
+		</id>
+		<property name="s_name" column="s_name"></property>
+		<property name="s_number" column="s_numer"></property>
+	</class>
+</hibernate-mapping>
